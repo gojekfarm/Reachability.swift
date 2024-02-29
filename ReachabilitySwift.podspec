@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
 # Source Info
   s.ios.deployment_target = "12.0"
   s.osx.deployment_target = "10.13"
-  s.tvos.deployment_target  = "9.0"
   s.source       =  {
     :git => 'https://github.com/gojekfarm/Reachability.swift.git',
     :tag => 'v'+s.version.to_s
